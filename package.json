@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "charles Ukadike",
   "license": "ISC",
@@ -19,6 +19,6 @@
     "openai": "^3.2.1"
   },
   "engines": {
-    "node": ">=14 <15"
+    "node": ">=14"
   }
 }
